@@ -1,9 +1,6 @@
 #This code creates a start button which is to be used outside of QTM. When the start button is clicked, QTM immediately starts recording. At the same time the start button is clicked, there is 500 milliseconds
 #of silence. Then there is a beep at 500Hz which plays for 500 milliseconds. This sound corresponds to teh 500 millisecond to 1000 millisecond interval of the QTM file. 
 
-# This code creates a start/stop GUI for QTM (Qualisys Track Manager) to control motion capture recording.
-# It also plays a beep sound 500 milliseconds after recording starts, to act as a time marker.
-
 # ========== IMPORTING MODULES ==========
 import asyncio                    # Lets us run asynchronous tasks (like waiting without freezing the app)
 import threading                 # Allows tasks to run in the background without freezing the GUI
