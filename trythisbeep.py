@@ -1,3 +1,10 @@
+#This code creates a start button which is to be used outside of QTM. When the start button is clicked, QTM immediately starts recording. At the same time the start button is clicked, there is 500 milliseconds
+#of silence. Then there is a beep at 500Hz which plays for 500 milliseconds. This sound corresponds to teh 500 millisecond to 1000 millisecond interval of the QTM file. 
+#There is also a stop button which actually works!
+#If pre set trial time set (for example, 10 seconds), then that will end the recording if the user does not stop it before then.
+#Recommended that QTM set to continuous mode so user can externally stop when trial is done. 
+
+
 import asyncio
 import threading
 import numpy as np
